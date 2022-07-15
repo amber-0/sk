@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>指差呼称について見てみよう！</title>
+    <link rel="icon" href="img/fav.png">
+  </head>
+
+  <body>
+
+    <!-- 最初に表示する画像 -->
+    <div class="container d-flex justify-content-center mt-2">
+      <img id="mypic" class="img-fluid rounded" src="/img/main1.gif">
+    </div>
+
+      <div class="parent d-flex justify-content-center">
+        <!-- 進むボタン -->
+        <div class="children1 m-3">
+          <input type="button" value="" onclick="go_back()" class="goback border border-0">
+        </div>  
+        <!-- 戻るボタン -->
+        <div class="children2 m-3">      
+          <input type="button" value="" onclick="go_forward()" class="goforward border border-0">
+        </div>
+      </div>
+
+  <footer class="bg-success text-center text-light p-3 mt-3">
+    (c)2022 t-ogino.All Rights Reserved
+    </footer>
+    
+    <!-- Bootstrap javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- javascript -->
+  <script src="/js/index.js"></script>
+</body>
+</html>
