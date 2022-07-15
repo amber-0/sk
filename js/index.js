@@ -1,7 +1,7 @@
 
 // 1~6の画像を表示する
 var pics_src = new Array
-  ("img/main1.gif",
+  ("https://github.com/amber-0/sk/blob/main/img/main1.gif?raw=true",
   "img/main2.gif",
   "img/main3.gif",
   "img/main4.gif",
