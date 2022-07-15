@@ -1,6 +1,6 @@
 /* jumbptronに背景を設定 */
 .bg-img{ 
-  background:url(/img/bg.jpg)
+  background:url(https://github.com/amber-0/sk-/blob/main/img/bg.jpg?raw=true)
   center no-repeat;
   background-size: cover;
 }
