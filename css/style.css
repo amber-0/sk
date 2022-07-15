@@ -9,7 +9,7 @@
 .goback{
   width: 50px;
   height: 50px;
-  background: url(/img/arrow_left.svg) center no-repeat;
+  background: url(https://raw.githubusercontent.com/amber-0/sk-/377f0651cdf6ea719a3e01572039c64d3cb507e2/img/arrow_left.svg) center no-repeat;
 }
 
 .goback:hover{
@@ -20,7 +20,7 @@
 .goforward{
   width: 50px;
   height: 50px;
-  background: url(/img/arrow_right.svg) center no-repeat;
+  background: url(https://raw.githubusercontent.com/amber-0/sk-/377f0651cdf6ea719a3e01572039c64d3cb507e2/img/arrow_right.svg) center no-repeat;
 }
 
  .goforward:hover{
